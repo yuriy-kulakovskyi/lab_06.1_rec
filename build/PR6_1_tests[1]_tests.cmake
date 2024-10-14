@@ -1,0 +1,5 @@
+add_test([=[]=]  [==[/Users/yura_kulakovskyi/Documents/C++/AP/PR6/PR6_1/build/PR6_1_tests]==] [==[--gtest_filter=.40  34  42 -15  69   0  72  64  -6  53   7  16  20 -23 -12 -11 -21  69  36  57  45  63  55]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/yura_kulakovskyi/Documents/C++/AP/PR6/PR6_1/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[]=]  [==[/Users/yura_kulakovskyi/Documents/C++/AP/PR6/PR6_1/build/PR6_1_tests]==] [==[--gtest_filter=.0   0   0   0  69   0   0   0   0  53   7   0   0   0   0   0   0  69   0  57  45  63  55]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/yura_kulakovskyi/Documents/C++/AP/PR6/PR6_1/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  PR6_1_tests_TESTS)
